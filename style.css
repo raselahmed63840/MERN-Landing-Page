@@ -1,0 +1,146 @@
+body { font-family: 'Segoe UI', sans-serif; }
+    .logo-text {
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+    .logo-orange {
+      color: orange;
+    }
+    .btn-signup {
+      background-color: orange;
+      color: white;
+    }
+    .btn-signup:hover {
+      background-color: darkorange;
+    }
+    .nav-link.active {
+      font-weight: bold;
+    }
+    .hero { padding: 100px 0;
+           font-family: Inter (woff2) sans-serif;
+           font-size:11px ;
+     }
+    
+     .service-card { box-shadow: 0 4px 6px rgba(0,0,0,0.1); border: none; border-radius: 12px; }
+     .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+     }
+    /* .service-card {
+            border: 2px;;
+            border-radius: 10px;
+            transition: transform 0.3s;
+            height: 100%;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        } */
+
+        .team-member {
+      text-align: center;
+      padding: 20px;
+      border: 1px solid #eee;
+      border-radius: 10px;
+      transition: transform 0.3s;
+      background: #fff;
+    }
+    .team-member:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .team-member img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+    .team-title {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 30px;
+      color: #1e1e2d;
+    }
+    .team-subtitle {
+      letter-spacing: 2px;
+      font-size: 0.8rem;
+      color: #aaa;
+      margin-bottom: 10px;
+    }
+    .member-name {
+      font-weight: bold;
+      color: #2b2b7e;
+      margin-bottom: 5px;
+    }
+    .member-role {
+      font-size: 0.9rem;
+      color: gray;
+    }
+    .testimonial { font-size: 0.9rem; }
+    .newsletter { background: #f8f9fa; padding: 50px 20px; border-radius: 12px; }.newsletter-section {
+      padding: 80px 0;
+    }
+    .newsletter-img {
+      max-width: 100%;
+      height: auto;
+    }
+    .form-control {
+      border-radius: 50px;
+      padding: 15px 25px;
+      font-size: 1rem;
+      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+      border: none;
+    }
+    .btn-subscribe {
+      background: linear-gradient(to right, #ff6a00, #ff9000);
+      border: none;
+      color: white;
+      border-radius: 50px;
+      padding: 12px 35px;
+      font-weight: 600;
+      margin-top: 15px;
+    }
+    .newsletter-title {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #1e1e2d;
+    }
+    .newsletter-subtitle {
+      letter-spacing: 2px;
+      font-size: 0.8rem;
+      color: #aaa;
+      margin-bottom: 10px;
+    }
+
+    .footer {
+      padding: 40px 0 20px;
+      background-color: #fff;
+      color: #3d3d3d;
+      font-size: 0.9rem;
+    }
+    .footer-logo {
+      font-weight: bold;
+      font-size: 1.3rem;
+      color: #ff6600;
+    }
+    .footer-nav a {
+      margin-left: 20px;
+      color: #2d2d6e;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .footer-nav a:hover {
+      text-decoration: underline;
+    }
+    .footer-bottom {
+      font-size: 0.85rem;
+      color: #aaa;
+      margin-top: 30px;
+      text-align: center;
+      border-top: 1px solid #eee;
+      padding-top: 15px;
+    }
+    .btn-orange { background-color: #ff6600; color: #fff; }
+    .btn-orange:hover { background-color: #e65c00; }
